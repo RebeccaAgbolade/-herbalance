@@ -267,7 +267,7 @@ export default function App() {
   })();
 
   const s: any = {
-    app: { minHeight: "100vh", background: "linear-gradient(135deg, #0f1923 0%, #1a2535 50%, #162231 100%)", color: "#e8f0e8", fontFamily: "'DM Sans', 'Segoe UI', sans-serif", display: "flex", flexDirection: "column" as const, maxWidth: 480, margin: "0 auto" },
+    app: { minHeight: "100vh", background: "linear-gradient(135deg, #0f1923 0%, #1a2535 50%, #162231 100%)", color: "#e8f0e8", fontFamily: "'DM Sans', 'Segoe UI', sans-serif", display: "flex", flexDirection: "column" as const, maxWidth: "100%", margin: "0 auto" },
     header: { background: "rgba(255,255,255,0.04)", backdropFilter: "blur(12px)", borderBottom: "1px solid rgba(255,255,255,0.07)", padding: "16px 20px 12px", display: "flex", alignItems: "center", justifyContent: "space-between" },
     nav: { display: "flex", gap: 4, background: "rgba(255,255,255,0.04)", borderTop: "1px solid rgba(255,255,255,0.07)", padding: "8px 12px", position: "sticky" as const, bottom: 0 },
     card: { background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)", borderRadius: 16, padding: 16, marginBottom: 12 },
